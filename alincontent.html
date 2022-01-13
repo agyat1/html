@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align content(y-axis)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 800px;
+            background-color: turquoise;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* align-content: space-between; */
+            align-content: space-around;
+        }
+        .demo{
+            height: 300px;
+            width: 24%;
+            background-color: tomato;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        
+    </div>
+</body>
+</html>
